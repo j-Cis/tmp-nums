@@ -1,0 +1,18 @@
+[toolchain]
+channel = "beta"   
+profile = "complete"
+
+[components]
+# IDE & developer tools
+rust-src = true
+rust-analyzer = true
+rustfmt = true
+clippy = true
+rustc-dev = true
+llvm-tools-preview = true
+
+# Docs (opcjonalnie)
+rust-docs = true
+
+[rust-std]
+x86_64-pc-windows-msvc = true

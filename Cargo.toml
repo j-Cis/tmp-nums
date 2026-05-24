@@ -3,14 +3,12 @@ name = "tmp-nums"
 version = "0.1.0-dev.1"
 authors = ["Jan Roman Cisowski „j-Cis”"]
 edition = "2024"
-rust-version = "1.95.0"
-description = "Zabawa"
 readme = "README.md"
-repository = "https://github.com/j-Cis/j-Cis-tmp-nums"
+repository = "https://github.com/j-Cis/tmp-nums"
 resolver = "3"
 
 [lib]
-name = "x"        
+name = "x"
 path = "src/api.rs" 
 
 # ==========================================
@@ -20,10 +18,10 @@ path = "src/api.rs"
 # Kategorycznie zabraniamy używania bloków `unsafe` w całym projekcie
 unsafe_code = "forbid"
 # Ostrzegamy o nieużywanych importach, zmiennych i funkcjach
-# unused = "warn"
-#
+unused = "warn"
+
 [lints.clippy]
 # Włączamy surowsze reguły, ale jako ostrzeżenia (nie zepsują kompilacji)
-# pedantic = "warn"
+pedantic = "warn"
 # Możemy tu też wyciszyć globalnie to, co nas irytuje (opcjonalnie):
 too_many_arguments = "allow"
