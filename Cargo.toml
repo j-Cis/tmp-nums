@@ -1,10 +1,13 @@
 [package]
-name = "tmp-nums"
+name = "cas"
 version = "0.1.0-dev.1"
 authors = ["Jan Roman Cisowski „j-Cis”"]
 edition = "2024"
 readme = "README.md"
 repository = "https://github.com/j-Cis/tmp-nums"
+# gh codespace ssh -c ideal-guide-96j7px56g6537jg
+# gh codespace stop -c ideal-guide-96j7px56g6537jg
+
 resolver = "3"
 
 [lib]
