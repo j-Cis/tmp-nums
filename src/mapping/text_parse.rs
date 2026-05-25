@@ -1,4 +1,4 @@
-use crate::api::cas::Node;
+use super::cas::Node;
 
 pub fn parse_latex(input: &str) -> Option<Node> {
     println!("Parsowanie wejścia: {}", input);
