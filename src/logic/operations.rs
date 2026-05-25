@@ -1,5 +1,4 @@
-use super::cas::Node; 
-// Pobieramy Node przez nasze API (lub bezpośrednio z cas)
+use super::cas::Node;
 
 pub fn simplify_equation(node: &Node) -> Node {
     node.simplify()
